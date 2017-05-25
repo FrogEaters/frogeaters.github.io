@@ -1,0 +1,73 @@
+/* Background Color */
+body {
+  /*background-color: Wheat;*/
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Flag_of_the_German_Reich_%281935%E2%80%931945%29.svg/1200px-Flag_of_the_German_Reich_%281935%E2%80%931945%29.svg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  margin-top: -100;
+}
+
+/* Text Properties */
+* {
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h2, p{
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: Tomato;
+  font-family: Georgia, serif;
+  font-size: 65px;
+  text-align: left;
+}
+
+h2 {
+  color: Tomato;
+  font-size: 25px;
+}
+
+h3 {
+  color: Tomato;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-size: 25px;
+  color: Tomato;
+  font-weight: bold;
+}
+
+/* Classes */
+.meme-and-texts {
+  background-image: url("http://www.trbimg.com/img-57fd09fa/turbine/la-na-pol-pepe-the-frog-hate-symbol-20161011-snap");
+  box-shadow: 2px 2px 5px #888888;
+  max-height: 500px;
+  min-height: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+.paragraph {
+  background-color: rgb(254, 255, 237);
+  background-size: 200%;
+  box-shadow: 2px 2px 5px #888888;
+  overflow: scroll;
+  text-align: left;
+}
+
+.photo-label {
+  background-color: rgb(254, 255, 237);
+  background-size: 200%;
+  box-shadow: 2px 2px 5px #888888;
+  overflow: scroll;
+  text-align: left;
+}
