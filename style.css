@@ -12,10 +12,14 @@ body {
 /* Text Properties */
 * {
   /*border: 1px solid rgba(0, 0, 0, 0.3);*/
+  color: Black;
 }
 
 h1, h2 {
+  background-color: rgba(255, 0, 0, 0.8);
+  margin: 10px;
   text-transform: uppercase;
+  width: 50%;
 }
 
 h2, p{
@@ -23,51 +27,52 @@ h2, p{
 }
 
 h1 {
-  color: Tomato;
   font-family: Georgia, serif;
   font-size: 65px;
   text-align: left;
 }
 
 h2 {
-  color: Tomato;
   font-size: 25px;
 }
 
 h3 {
-  color: Tomato;
   font-family: arial, sans-serif;
   font-size: 20px;
 }
 
 p {
   font-size: 25px;
-  color: Tomato;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* Classes */
 .meme-and-texts {
   background-image: url("http://www.trbimg.com/img-57fd09fa/turbine/la-na-pol-pepe-the-frog-hate-symbol-20161011-snap");
   box-shadow: 2px 2px 5px #888888;
+  margin-bottom: 50px;
   max-height: 500px;
   min-height: 400px;
   width: 100%;
   text-align: left;
 }
 
-.paragraph {
-  background-color: rgb(254, 255, 237);
-  background-size: 200%;
+.information {
+  /*background-color: rgb(254, 255, 237);*/
+  background-color: White;
   box-shadow: 2px 2px 5px #888888;
-  overflow: scroll;
+  margin-bottom: 10px;
+  /*overflow: scroll;*/
+  padding: 10px 10px;
   text-align: left;
 }
 
 .photo-label {
-  background-color: rgb(254, 255, 237);
-  background-size: 200%;
+  /*background-color: rgb(254, 255, 237);*/
+  background-color: White;
   box-shadow: 2px 2px 5px #888888;
-  overflow: scroll;
+  margin-top: 10px;
+  /*overflow: scroll;*/
+  padding: 5px 10px;
   text-align: left;
 }
